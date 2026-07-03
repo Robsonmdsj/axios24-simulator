@@ -12,39 +12,39 @@ function criarCanal(numero){
 
 return`
 
-<div class="channel">
+    <div class="channel">
 
-<div class="display">
+    <div class="display">
 
-CH ${numero}
+    Ch ${numero}
 
-</div>
+    </div>
 
-<div class="meter">
+    <div class="meter">
 
-<div class="level"></div>
+    <div class="level"></div>
 
-</div>
+    </div>
 
-<button>Mute</button>
+    <button>Mute</button>
 
-<button>Solo</button>
+    <button>Solo</button>
 
-<input type="range"
+    <input type="range"
 
-min="0"
+    min="0"
 
-max="100"
+    max="100"
 
-value="75"
+    value="15"
 
-class="fader"
+    class="fader"
 
-orient="vertical">
+    orient="vertical">
 
-</div>
+    </div>
 
-`;
+    `;
 
 }
 
@@ -52,34 +52,34 @@ function criarMaster(){
 
 return`
 
-<div class="master">
+        <div class="master">
 
-<div class="display">
+        <div class="display">
 
-MASTER
+        MASTER
 
-</div>
+        </div>
 
-<div class="meter">
+        <div class="meter">
 
-<div class="level"></div>
+        <div class="level"></div>
 
-</div>
+        </div>
 
-<input type="range"
+        <input type="range"
 
-min="0"
+        min="0"
 
-max="100"
+        max="100"
 
-value="80"
+        value="80"
 
-class="fader"
+        class="fader"
 
-orient="vertical">
+        orient="vertical">
 
-</div>
+        </div>
 
-`;
+        `;
 
 }

@@ -95,7 +95,7 @@ width:16px;
 
 height:180px;
 
-background:#000;
+background:#0e0d0d;
 
 border-radius:20px;
 
@@ -115,7 +115,7 @@ width:100%;
 
 height:40%;
 
-background:linear-gradient(green,lime,yellow,red);
+background:linear-gradient(red,yellow,lime,green);
 
 animation:vumeter .7s infinite alternate;
 
